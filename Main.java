@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
 //  стартуем сервер на порту 3345
 
-        try (ServerSocket server= new ServerSocket(3345)){
+        try (ServerSocket server= new ServerSocket(48654)){
 // становимся в ожидание подключения к сокету под именем - "client" на серверной стороне                                
                 Socket client = server.accept();
 
